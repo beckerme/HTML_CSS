@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pod eacessar o meu canal gartuito no <a href="https://youtube.com/cursoemvideo" target="_blank" rel="external">YouTube</a></p>
+    
+    <h1>Usando links internos</h1>
+    <p>Esta é a primeira pagina do site se voce quiser tambem pode acessar a minha <a href="pag02.html" rel="next" target="_self">Segunda página</a></p>
+    <!--Em links internos não é preciso indicar a URL inteira || Detalhe: Tem que estar na mesma pasta-->
+    <p>Voce pode acessar a minha <a href="noticias/pag03.html" rel="next">Terceira página</a></p>
+    <p>Esta pagina é um ofercimento de <a href="https://www.hostnet.com.br/" target="_blank" rel="nofollow">HostNet</a></p>
+    <!--Usando a rel "next" voce diz ao seu buscador que nao da um aval para o conteudo, ou seja, que ele nao e patrocinado.-->
+
+    <h1>Links para download</h1>
+    <ul>
+        <li>
+            <a href="meulivro/meulivro.pdf" download="meulivro.pdf" type="apllication/pdf">Baixar o livro em PDF</a> <!--# significa que ta um link vazio-->
+        </li>
+        <li>
+            <a href="meulivro/meulivro.zip" download="meulivro.zip" type="apllication/zip">Livro compactado em ZIP</a>
+            <!--Cada apllication é diferente dependendo do aruqivo que for baixar || acessar o site da IARA na secção de media-types.-->
+        </li>
+    </ul>
+</body>
+</html>

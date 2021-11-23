@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        *{ /*É uma configuração global, um seletor com "*"            */
+          height: 100%;  
+        }
+        body{
+            background-image: linear-gradient(150deg,#6052C6, #4F6BCE, #8A42B3 30%, #C0328E, #E63F5D, #F56A32, #FDC466 ); /* Pode-se, no lugar do "to right" usar-se o "xdeg" onde o x é um numero de graus que queremos para onde o gradiente vá */
+
+            /*background-image: radial-gradient(circle,#6052C6, #4F6BCE, #8A42B3, #C0328E, #E63F5D, #F56A32, #FDC466 );*/
+
+            background-attachment: fixed; /* Deixa o degrade fixo */
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando gradiente</h1>
+</body>
+</html>

@@ -1,0 +1,29 @@
+@charset "UTF8";
+
+body {
+    background-image: linear-gradient(to right, #DADB8F, #8E8F4A);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #494926c0;
+    width: 800px;
+    padding: 10px; /* Da um epsaçamento nas laterais p o texto n ficar tao grudado as bordas */
+    margin: auto; /* Centraliza independente do tamanho da tela */
+}
+
+h1 {
+    color: #396A8F;
+    text-align: center;
+    text-shadow: 1px 1px 2px #396A8F;
+}
+
+h2{
+    color: #3c5c75;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}

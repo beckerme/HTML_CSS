@@ -1,0 +1,40 @@
+@charset "UTF-8";
+@font-face {
+    font-family: Indio ; /*Dou qualquer nome*/
+    src: url(fontes/Filxgirl.TTF);
+    font-weight: normal;
+    font-style: normal; 
+    
+    /*
+    Tipos de format():
+    - opentype (otf);
+    - truetype(ttf);
+    - embedded-opentype;
+    - truetype-aat(apple advenced typography);
+    -svg;
+    */
+}
+
+body{
+    background-image: linear-gradient(to right, #f093fb 0%, #f5576c 100%);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px #f5576c;
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: Indio;
+    font-size: 3em;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
