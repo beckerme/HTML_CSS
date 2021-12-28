@@ -1,0 +1,38 @@
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
+
+section > p{
+    padding-bottom: 1.5em;
+}
+
+.shadow{
+    text-shadow: 2px 1.3px black;
+}
+
+.normal{
+    background-color: #fff;
+}
+
+.imagem{
+    background-color: #000;
+    color: #fff;
+    box-shadow: inset 7px 7px 15px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img02{
+    background-image: url(imagens/background002-second.jpg);
+    background-repeat: no-repeat;
+}
