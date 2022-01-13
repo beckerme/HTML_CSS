@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #414141, transparent);
+    min-height: 200vh;
+}
+
+h1{
+    font-size: 2.5vw;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+
+    position: relative;
+}
+
+thead > tr, th{
+    position: sticky;
+    top: 0;
+    background: gray;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead, tfoot{
+    background-color: gray;
+    color: white;
+}
+
+.num{
+    text-align: right;
+}
+
+caption{
+    font-weight: bold;
+    padding: .75em;
+    background-color: lightgray;
+}
+
+.largura{
+    width: 100px;
+}
+
+.largura.-porcentagem{
+    width: 80px;
+    border: 1px solid black;
+}
+
+tbody >tr:nth-child(even){
+    background-color: lightgray;
+}
+
+tbody >tr:nth-child(odd){
+    background-color: lightslategrey;
+}
+
+tbody >tr:only-child{
+    background-color: gray;
+    color: white;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+}
